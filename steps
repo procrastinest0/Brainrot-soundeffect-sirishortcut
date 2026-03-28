@@ -1,0 +1,71 @@
+Siri Shortcut: Peak Brainrot Sound Effects
+
+iPhone Only
+This guide only applies to Siri Shortcuts on iPhone.
+
+Turn any brainrot sound effect into a Siri Shortcut you can trigger with a tap, a voice command, or your Action Button. Five steps, no extra apps required.
+
+ 
+
+1. Download a Sound Effect
+Go to soundbuttonsworld.com and browse for the brainrot sound effect you want.
+
+Browse the sound board and tap the download icon on your chosen effect.
+
+When the download prompt appears, tap Download to save the MP3 file to your iPhone.
+
+Tap Download to save the MP3 to your device.
+
+2. Encode the MP3 to Base64
+Open a Base64 encoder in your browser. A good free option is codebeautify.org/mp3-to-base64-converter. Upload the MP3 file you just downloaded.
+
+Upload your MP3 file on Code Beautify.
+
+Once the file is processed, copy the entire Base64-encoded text output. Use the copy button next to the output for convenience.
+
+Copy the full Base64 string — make sure nothing is truncated.
+
+Tip: The encoded text will be very long. Make sure you copy the full string with no truncation.
+
+3. Create the Shortcut & Add a Text Action
+Open the Shortcuts app on your iPhone and tap + to create a new shortcut. You’ll see the action search bar at the bottom.
+
+A fresh shortcut — use the Search Actions bar at the bottom.
+
+Search for Text in the actions search bar and tap the Text action (the one with the yellow icon) to add it.
+
+Search for “Text” and tap the first result.
+
+Tap the text field inside the action and paste your Base64-encoded text.
+
+Paste the full Base64 string into the Text field.
+
+4. Add the Base64 Decode Action
+Search for Base64 in the actions search bar and add the Encode/Decode Base64 action below the Text action.
+Important: Switch it to Decode. The default is Encode, which is the opposite of what you need.
+
+
+Make sure Decode is selected (not Encode) — you can see the full shortcut taking shape.
+
+5. Add the Play Sound Action
+Search for Play Sound and add it as the last action. When prompted for the sound file, tap the field and choose Base64 Encoded from the variable picker.
+
+Select “Base64 Encoded” as the sound file source.
+
+Your shortcut is now ready! Tap the play button at the bottom right to test it.
+ 
+
+Bonus: Set It as Your Action Button
+
+If your iPhone has an Action Button (iPhone 15 Pro and later), go to Settings → Action Button, select Shortcut, and pick the one you just created.
+
+Find Action Button in Settings.
+
+Select Shortcut and pick the one you just created. Now you can fire off your brainrot sound effect with a single press of the Action Button.
+
+Action Button assigned to your brainrot shortcut — one press and it plays.
+
+
+Your brainrot shortcuts, ready to deploy.
+
+You can also trigger it via Siri voice command, add it to your Home Screen, or run it from the Shortcuts widget.
